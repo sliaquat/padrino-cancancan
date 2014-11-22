@@ -1,0 +1,9 @@
+*.gem
+.config
+Gemfile.lock
+*.bundle
+.idea/
+
+
+
+
