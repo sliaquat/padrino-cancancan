@@ -8,14 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Sanad Liaquat"]
   spec.email         = ["sanadhussain@gmail.com"]
   spec.summary       = "Use cancancan authorization gem with Padrino"
-  spec.description   = "This gem lets you use the CanCanCan gem (https://github.com/CanCanCommunity/cancancan) with Padirno framework. Note that CanCanCan is a continuation of CanCan(https://github.com/ryanb/cancan), the authorization Gem for Ruby on Rails."
-  spec.homepage      = ""
+  spec.description   = "This gem lets you use the CanCanCan gem (https://github.com/CanCanCommunity/cancancan) with Padrino framework. Note that CanCanCan is a continuation of CanCan (https://github.com/ryanb/cancan), the authorization gem for Ruby on Rails."
+  spec.homepage      = "https://github.com/sliaquat/padrino-cancancan"
   spec.license       = "MIT"
   spec.files         = [
       'lib/padrino-cancancan.rb',
       'lib/padrino-cancancan/helpers.rb'
   ]
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  spec.add_runtime_dependency "cancancan"
+  spec.add_dependency "cancancan"
 end

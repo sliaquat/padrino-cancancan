@@ -1,6 +1,6 @@
 # Padrino Cancancan
 
-This gem lets you use the CanCanCan gem (https://github.com/CanCanCommunity/cancancan) with Padirno framework. Note that CanCanCan is a continuation of CanCan (https://github.com/ryanb/cancan), the authorization gem for Ruby on Rails. 
+This gem lets you use the CanCanCan gem (https://github.com/CanCanCommunity/cancancan) with Padrino framework. Note that CanCanCan is a continuation of CanCan (https://github.com/ryanb/cancan), the authorization gem for Ruby on Rails. 
 
 ## Installation
 
@@ -17,6 +17,8 @@ Or install it yourself as:
     $ gem install padrino-cancancan
 
 ## Usage
+
+This gem works with existing Padrino::Admin::AccessControl module and expects current_account to be available. For more info about AccessControl, checkout: http://www.padrinorb.com/guides/padrino-admin#admin-authentication
 
 In your app.rb, register Padrino::CanCan   (NOTE: 'Can' in the module name is two times and NOT 3 times as in the gem's name)
 

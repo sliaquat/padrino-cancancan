@@ -1,4 +1,4 @@
-require 'cancan'
+require 'cancancan'
 require 'padrino-cancancan/helpers'
 
 module Padrino
